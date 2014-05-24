@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "1d7587389e7f20e9507c5471568a87cc",
+    "hash": "aabbe261e05793cce2946fcc733f4896",
     "packages": [
         {
             "name": "composer/installers",
@@ -216,6 +216,29 @@
             "homepage": "http://wordpress.org/plugins/advanced-custom-fields/"
         },
         {
+            "name": "wpackagist-plugin/antispam-bee",
+            "version": "2.6.0",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/antispam-bee/",
+                "reference": "tags/2.6.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/antispam-bee.2.6.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/antispam-bee": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/antispam-bee/"
+        },
+        {
             "name": "wpackagist-plugin/debug-bar",
             "version": "0.8.1",
             "source": {
@@ -329,6 +352,52 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/image-widget/"
+        },
+        {
+            "name": "wpackagist-plugin/simple-301-redirects",
+            "version": "1.06",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/simple-301-redirects/",
+                "reference": "tags/1.06"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/simple-301-redirects.1.06.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/simple-301-redirects": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/simple-301-redirects/"
+        },
+        {
+            "name": "wpackagist-plugin/simple-page-ordering",
+            "version": "2.2",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/simple-page-ordering/",
+                "reference": "tags/2.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/simple-page-ordering.2.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/simple-page-ordering": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/simple-page-ordering/"
         },
         {
             "name": "wpackagist-plugin/w3-total-cache",

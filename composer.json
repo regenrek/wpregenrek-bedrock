@@ -69,7 +69,10 @@
     "wpackagist-plugin/debug-bar": "*",
     "wpackagist-plugin/google-analytics-for-wordpress": "*",
     "wpackagist-plugin/wordpress-seo": "*",
-    "wpackagist-plugin/image-widget": "*"
+    "wpackagist-plugin/image-widget": "*",
+    "wpackagist-plugin/antispam-bee": "*",
+    "wpackagist-plugin/simple-page-ordering": "*",
+    "wpackagist-plugin/simple-301-redirects": "*"
   },
   "extra": {
     "installer-paths": {
