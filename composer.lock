@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "aabbe261e05793cce2946fcc733f4896",
+    "hash": "f3a1a40a664edfac024495970f8685b5",
     "packages": [
         {
             "name": "composer/installers",
@@ -130,6 +130,31 @@
             "description": "A composer installer for libraries that live in an application webroot.",
             "homepage": "http://fancyguy.github.com/webroot-installer/",
             "time": "2013-03-15 17:51:14"
+        },
+        {
+            "name": "kkern/wp-aqua-resizer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kkern/WP-Aqua-Resizer.git",
+                "reference": "10b02957277380f6887b24251d6f3a0ba5492c56"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "regenrek (Aq Resizer: Syamil MJ)",
+                    "email": "hello@regenrek.at"
+                }
+            ],
+            "description": "A composer installer for the Aqua Resizer",
+            "homepage": "http://github.com/kkern/wp-aqua-resizer",
+            "time": "2014-05-25 20:28:47"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -499,9 +524,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "kkern/wp-aqua-resizer": 20
+    },
     "platform": {
         "php": ">=5.3.2"
     },

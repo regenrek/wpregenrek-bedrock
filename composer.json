@@ -55,7 +55,7 @@
     }, 
     {
       "type": "git",
-      "url": "https://github.com/syamilmj/Aqua-Resizer.git"
+      "url": "https://github.com/kkern/WP-Aqua-Resizer.git"
     }
   ],
   "require": {
@@ -65,7 +65,7 @@
     "composer/installers": "v1.0.12",
     "vlucas/phpdotenv": "~1.0.6",
 
-    "syamilmj/Aqua-Resizer": "dev/master",
+    "kkern/WP-Aqua-Resizer": "dev-master",
 
     "wpackagist-plugin/w3-total-cache": "*",
     "wpackagist-plugin/wp-mail-smtp": "*",
