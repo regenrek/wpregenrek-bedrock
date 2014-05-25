@@ -30,7 +30,7 @@ define('CONTENT_DIR', '/app');
 define('WP_CONTENT_DIR', $webroot_dir . CONTENT_DIR);
 define('WP_CONTENT_URL', WP_HOME . CONTENT_DIR);
 define('WP_DEBUG', true);
-define('WP_DEFAULT_THEME', 'roots');
+define('WP_DEFAULT_THEME', 'wpregenrek-roots');
 
 /**
  * DB settings
@@ -45,7 +45,9 @@ $table_prefix = 'wp_';
  *
  * A corresponding MO file for the chosen language must be installed to app/languages
  */
-define('WPLANG', '');
+define('WPLANG', 'de_DE');
+// Changing Language Dir
+define('WP_LANG_DIR', $webroot_dir . CONTENT_DIR . '/languages/' . WPLANG);
 
 /**
  * Authentication Unique Keys and Salts
