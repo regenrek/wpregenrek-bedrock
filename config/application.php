@@ -37,7 +37,7 @@ define('WP_DEFAULT_THEME', 'wpregenrek-child');
  */
 define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
-$table_prefix = 'wp_';
+$table_prefix = getenv('DB_PREFIX') ? getenv('DB_PREFIX') : 'wp_';
 
 /**
  * WordPress Localized Language
