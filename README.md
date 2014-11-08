@@ -38,4 +38,5 @@ Default Language is set to German
 ## Support & Documentation
 
 Original Documentation: [Bedrock](http://roots.io/wordpress-stack/)
+
 Use the [Roots Discourse](http://discourse.roots.io/) forum to ask questions and get support.
