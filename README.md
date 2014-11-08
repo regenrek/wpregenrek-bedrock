@@ -33,6 +33,9 @@ This is a fork of [https://github.com/roots/bedrock](https://github.com/roots/be
 Default Language is set to German
 
 
-Original Documentation: [Bedrock](http://roots.io/wordpress-stack/)
 
+
+## Support & Documentation
+
+Original Documentation: [Bedrock](http://roots.io/wordpress-stack/)
 Use the [Roots Discourse](http://discourse.roots.io/) forum to ask questions and get support.
