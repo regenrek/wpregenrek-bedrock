@@ -55,7 +55,7 @@
     }, 
     {
       "type": "git",
-      "url": "https://github.com/kkern/WP-Aqua-Resizer.git"
+      "url": "https://github.com/regenrek/WP-Aqua-Resizer.git"
     }
   ],
   "require": {
