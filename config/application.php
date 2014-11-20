@@ -29,7 +29,6 @@ if (file_exists($env_config)) {
 define('CONTENT_DIR', '/app');
 define('WP_CONTENT_DIR', $webroot_dir . CONTENT_DIR);
 define('WP_CONTENT_URL', WP_HOME . CONTENT_DIR);
-define('WP_DEBUG', true);
 define('WP_DEFAULT_THEME', 'wpregenrek-child');
 
 /**
