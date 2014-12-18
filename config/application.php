@@ -29,7 +29,7 @@ if (file_exists($env_config)) {
 define('CONTENT_DIR', '/app');
 define('WP_CONTENT_DIR', $webroot_dir . CONTENT_DIR);
 define('WP_CONTENT_URL', WP_HOME . CONTENT_DIR);
-define('WP_DEFAULT_THEME', 'wpregenrek-child');
+define('WP_DEFAULT_THEME', '');
 
 /**
  * DB settings
@@ -38,7 +38,7 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 $table_prefix = getenv('DB_PREFIX') ? getenv('DB_PREFIX') : 'wp_';
 
-/**
+
  * WordPress Localized Language
  * Default: English
  *
@@ -49,6 +49,7 @@ define('WPLANG', 'de_DE');
 define('WP_LANG_DIR', $webroot_dir . CONTENT_DIR . '/languages/' . WPLANG);
 
 /**
+
  * Authentication Unique Keys and Salts
  */
 define('AUTH_KEY',         getenv('AUTH_KEY'));
